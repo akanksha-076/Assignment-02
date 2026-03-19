@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #243692, #2c4ac4);
+  background: linear-gradient(to bottom, #92612f, #332418);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -48,7 +48,6 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-  
 }
 
 .search-box button {
@@ -62,21 +61,6 @@ h1 {
   cursor: pointer;
 }
 
-
-
-.console-card {
-  margin-top: 20px;
-}
-
-.console {
-  background: #152a82;
-  height: 120px;
-  border-radius: 6px;
-  margin-top: 10px;
-  color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-  padding: 10px;
-}
 .weather-info {
   margin-top: 10px;
 }
@@ -87,7 +71,7 @@ h1 {
   padding: 12px;
   border-left: 4px solid orange;
   background: #f1f1f1;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(12, 12, 12, 0.2);
   margin-bottom: 8px;
   border-radius: 4px;
 }
@@ -95,9 +79,10 @@ h1 {
 .weather-row span:first-child {
   font-weight: bold;
 }
+
 #history button {
-  background: rgb(245, 176, 46);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: #f65c24;
+  box-shadow: 0 4px 15px rgba(11, 10, 10, 0.2);
   color: white;
   border: none;
   padding: 6px 14px;
